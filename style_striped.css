@@ -5,8 +5,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: repeating-linear-gradient(
         -45deg,
-        #d3d3d3, /* gris clair */
-        #d3d3d3 20px,
+        #8d8c89, /* gris clair */
+        #8d8c89 20px,
         #ffffff 20px,
         #ffffff 40px
     );
