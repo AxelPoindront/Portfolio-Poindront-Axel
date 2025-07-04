@@ -44,6 +44,17 @@
 </head>
     <link rel="stylesheet" href="style_striped.css">
     <script src="responsive.js" defer></script>
+    <script>
+function openPortfolio() {
+    if (document.body.classList.contains('mobile')) {
+        // Sur mobile, on ouvre le PDF dans un nouvel onglet
+        window.open('Portfolio Axel Poindront 2025.pdf', '_blank');
+    } else {
+        // Sur PC, on reste sur la page avec l'iframe
+        window.location.href = '#portfolio';
+    }
+}
+</script>
 <body>
 
     <header>
